@@ -47,7 +47,6 @@ async function handleEvent(event) {
     role: "user",
     content: event.message.text
   };
-
   // ChatGPT APIにリクエストを送る
   try {
     const completion = await makeCompletion(userMessage);
