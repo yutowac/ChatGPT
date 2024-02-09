@@ -21,7 +21,6 @@ async function fetchRandomShibeImage() {
         console.error('Error fetching shibe image:', error);
     }
 }
-
 // LINE Notifyに画像を送信する関数
 const sendNotify = async (message, imageUrl, access_token) => {
     const url = 'https://notify-api.line.me/api/notify';
