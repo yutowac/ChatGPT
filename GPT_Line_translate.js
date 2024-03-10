@@ -68,7 +68,6 @@ async function handleEvent(event) {
   }
 }
 
-// ここ以降は理解しなくてOKです
 const port = process.env.PORT || 3000;
 const app = express()
   .get('/', (_, res) => res.send('hello LINE Bot'))
